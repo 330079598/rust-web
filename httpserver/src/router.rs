@@ -1,6 +1,4 @@
-use super::server::{
-    PageNotFoundHandler::handle, StaticPageHandler::handle, WebServiceHandler::handle,
-};
+use crate::handler::{Handler, PageNotFoundHandler, StaticPageHandler, WebServiceHandler};
 use http::httpresponse::HttpResponse;
 use http::{httprequest, httprequest::HttpRequest};
 use std::io::Write;
