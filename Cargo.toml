@@ -3,5 +3,6 @@ members = [
     "tcpserver",
     "tcpclient",
     "httpserver",
-    "http"
+    "http",
+    "webservice"
 ]
