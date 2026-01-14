@@ -7,6 +7,8 @@ default-run = "teacher-service"
 [dependencies]
 actix-web = "4.0"
 tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
+chrono = { version = "0.4.42", features = ["serde"] }
 
 [[bin]]
 name = "teacher-service"
